@@ -105,8 +105,6 @@ def print_picture(folder, level):
     print(f"{"\t"*level}資料夾數量：{f_counter}")
     print(f"{"\t"*level}檔案數量：：{d_counter}")
 
-
-
 folder = input("輸入資料夾路徑：")
 print_picture(folder, 0)
 print()
